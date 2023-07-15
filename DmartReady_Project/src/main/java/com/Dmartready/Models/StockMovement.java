@@ -21,8 +21,8 @@ public class StockMovement {
 	private Stocks stockId;
 	
 	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "stock_location_id")
-	private StockLocation storeLocation_Id;
+	@JoinColumn(name = "store_location_id")
+	private StoreLocation storeLocation_Id;
 	
 	private Integer quantity;
 	

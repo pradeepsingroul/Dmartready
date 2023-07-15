@@ -23,6 +23,6 @@ public class Stocks {
 	
 	private String description;
 	
-	private Integer Quantity;
+	private Integer quantity;
 	
 }

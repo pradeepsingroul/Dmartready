@@ -14,7 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class StockLocation {
+public class StoreLocation {
 
 	@Id
 	private Integer Location_id;
