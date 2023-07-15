@@ -18,9 +18,9 @@ public class StockServiceImpl implements StocksService {
 	
 	
 	@Override
-	public Stocks findByNameService(String name) throws Stock_Exceptions {
+	public List<Stocks> findByNameService(String name) throws Stock_Exceptions {
 		// TODO Auto-generated method stub
-		Stocks stock = stockRepo.findByName(name);
+		List<Stocks> stock = stockRepo.findByName(name);
 		return stock;
 	}
 

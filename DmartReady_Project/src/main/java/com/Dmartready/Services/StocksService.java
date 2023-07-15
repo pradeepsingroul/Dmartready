@@ -13,7 +13,7 @@ public interface StocksService {
 	
 	public Stocks addStock(Stocks stocks) throws Stock_Exceptions;
 	
-	public Stocks findByNameService(String name) throws Stock_Exceptions;
+	public List<Stocks> findByNameService(String name) throws Stock_Exceptions;
 	
 	public Stocks updateQuantityById(int id, int quantity) throws Stock_Exceptions;
 	
