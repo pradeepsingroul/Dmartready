@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.Dmartready.Exceptions.Stock_Exceptions;
+import com.Dmartready.Models.StockMovement;
 import com.Dmartready.Models.Stocks;
 import com.Dmartready.Repository.StocksRepository;
 
@@ -75,6 +76,11 @@ public class StockServiceImpl implements StocksService {
 		// TODO Auto-generated method stub
 		Optional<Stocks> opt = stockRepo.findById(stocks.getStockID());
 		if(opt.isEmpty()) {
+			
+			List<StockMovement> movements = stocks.getStockMovements();
+			for(StockMovement s:movements) {
+				s.setStocks(stocks);
+			}
 			stockRepo.save(stocks);
 			return stocks;
 		}
