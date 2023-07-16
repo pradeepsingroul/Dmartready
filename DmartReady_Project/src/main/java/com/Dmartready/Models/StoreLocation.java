@@ -17,10 +17,10 @@ import lombok.Setter;
 public class StoreLocation {
 
 	@Id
-	private Integer Location_id;
+	private Integer locationId;
 	
 	private String name;
-	
+
 	private String address;
 	
 	
