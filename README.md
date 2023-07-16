@@ -7,6 +7,7 @@ This is Baaic atock management system where user can purchase a stock and he/she
 
 ## Features
 ### Stock.
+![Screenshot (139)](https://github.com/pradeepsingroul/Dmartready/assets/104360276/8d5e7f04-dc48-401c-b921-f335a6febbec)
 get all stocks
  ```getall 
 GetMethod-
@@ -35,6 +36,7 @@ http://localhost:8080/stocks/delete?id=id
 
 
 ### store location
+![Screenshot (141)](https://github.com/pradeepsingroul/Dmartready/assets/104360276/d1830946-b615-42c9-971f-27f636866511)
 get all the locations
  ```getall 
 GetMethod-
