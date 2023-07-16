@@ -36,9 +36,25 @@ http://localhost:8080/stocks/delete?id=id
 
 ### store location
 get all the locations
+ ```getall 
+GetMethod-
+http://localhost:8080/storeLocations
+```
 add new locations
+ ```add 
+PostMethod-
+http://localhost:8080/storeLocations
+```
 get location by name
+ ```getByName 
+GetMethod-
+http://localhost:8080/storeLocations/getByName?name=yourLocation
+```
 get location by aaddress
+ ```getByAddress 
+GetMethod-
+http://localhost:8080/storeLocations/getByAddress?address=yourAddress
+```
 
 ### stock movement
 get all stock movement
