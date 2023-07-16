@@ -25,8 +25,6 @@ public class StockMovement {
 	@Id
 	private Integer movementId;
 	
-	
-	
 	@ManyToOne(cascade = CascadeType.ALL)
 	private StoreLocation storeLocation;
 

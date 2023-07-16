@@ -37,7 +37,6 @@ public class Stocks {
 	
 	private Integer quantity;
 	
-	
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<StockMovement> stockMovements;
 	
