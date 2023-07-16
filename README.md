@@ -60,22 +60,6 @@ http://localhost:8080/storeLocations/getByAddress?address=yourAddress
 get all stock movement
 add new stock movement
 
-
- ## Rest Api
- 
-
-
-```login 
-GetMethod-
-http://localhost:8080/users/login
-```
-
-```Play game 
-GetMethod-
-http://localhost:8888/users?RcokPapperScissor={your sign}
-```
- 
-
 ## Tech Stack
 
 - Core Java
@@ -117,5 +101,5 @@ spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
 
 ```
 ### Swagger UI - Link
-
+http://localhost:8080/swagger-ui/index.html
 Use this link to run it on browser.
